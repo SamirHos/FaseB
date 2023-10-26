@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  webapiprimopunto:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  webapifaseb:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
